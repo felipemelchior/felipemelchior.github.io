@@ -12,11 +12,10 @@ permalink: /:slug
 theme: no-style-please
 remote_theme: riggraz/no-style-please
 theme_config:
-  appearence: "auto"
   back_home_text: '../'
   date_format: '%d-%m-%Y'
   show_description: true
-  
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
