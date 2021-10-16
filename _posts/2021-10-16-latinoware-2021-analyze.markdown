@@ -117,7 +117,7 @@ Dessa forma, o *payload* final ficou dessa forma:
 /flag?xXxXxXx={"xXxxXx":0}&yYyYyYy={"yYyYy":""}
 ```
 
-Realiando essa requisição, a *flag* **LW2021{m3m3_5ucc3s5fully_an4lyz3d}** é retornada.
+Realizando essa requisição, a *flag* **LW2021{m3m3_5ucc3s5fully_an4lyz3d}** é retornada.
 
 ---
 ### m0r3m3m35
