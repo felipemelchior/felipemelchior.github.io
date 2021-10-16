@@ -1,6 +1,6 @@
 ---
 layout: post
-title: latinoware analyze (web challenge)
+title: latinoware 2021 - analyze (web challenge)
 slug: latinoware_web
 ---
 
@@ -13,7 +13,9 @@ O desafio **Analyze** era um problema da categoria de web que consistia em um *c
 
 Acessando o desafio, apenas era mostrado uma imagem e dois links.
 
-![LatinoWare1](images/latino-ware-1.png)
+<p align="center">
+    <img src="/assets/latino-ware-1.png">
+</p>
 
 O *endpoint* **/code** mostra o código da aplicação, para que fosse possível realizar uma análise e encontrar possíveis erros.
 
@@ -104,7 +106,10 @@ Sabendo que apenas **os valores** são comparados no final, é possível encontr
 
 Fazendo testes, é possível encontrar uma comparação que satifaz nossas duas condições, que é comparar o inteiro **0** com a string vazia **""**.
 
-![LatinoWare2](./images/latino-ware-2.png)
+
+<p align="center">
+    <img src="/assets/latino-ware-2.png">
+</p>
 
 Dessa forma, o *payload* final ficou dessa forma:
 
