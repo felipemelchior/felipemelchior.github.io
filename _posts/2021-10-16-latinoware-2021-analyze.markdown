@@ -104,7 +104,7 @@ Porém, neste caso, o segundo JSON possui um caracter a menos que o primeiro, fa
 
 Sabendo que apenas **os valores** são comparados no final, é possível encontrar dois valores de tipos diferentes, mas que irão retornar **true** no final. Lembrando que um dos valores deve possuir um caracter a mais que o outro, para passar no filtro comentado anteriormente.
 
-Fazendo testes, é possível encontrar uma comparação que satifaz nossas duas condições, que é comparar o inteiro **0** com a string vazia **""**.
+Fazendo testes, é possível encontrar uma comparação que satisfaz nossas duas condições, que é comparar o inteiro **0** com a string vazia **""**.
 
 
 <p align="center">
