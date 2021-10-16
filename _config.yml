@@ -3,18 +3,21 @@ author: Felipe Homrich Melchior
 email: your-email@example.com
 description: >
   estudos e write-ups de segurança da informação 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""
 url: "https://hdrnn.dev" 
 github_username:  felipemelchior
 
-# Build settings
+permalink: /:slug
+
 theme: no-style-please
 remote_theme: riggraz/no-style-please
 theme_config:
   appearence: "auto"
-  back_home_text: '..'
+  back_home_text: '../'
   date_format: '%d-%m-%Y'
-  show_description: false
+  show_description: true
+  
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
